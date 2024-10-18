@@ -1,0 +1,15 @@
+REQUISIÇÃO register
+HTTP: http://localhost:5000/api/auth/register
+JSON
+{
+"username": "testuser",	
+"password":	"testpassword"
+}
+
+REQUISIÇÃO login
+HTTP: http://localhost:5000/api/auth/login
+JSON
+{
+"username": "testuser",	
+"password":	"testpassword"
+}
